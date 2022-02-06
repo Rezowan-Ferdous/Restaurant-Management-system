@@ -8,7 +8,7 @@ namespace Restaurant.ENTITY
 {
     public class PurchaseRM:BaseProps
     {
-        public RawMaterials RawMaterialName { get; set; }
+        public int InvoiceId { get; set; }
         public DateTime PurchaseDate { get; set; }
         public double Quantity { get; set; }
         public double TotalPrice { get; set; }

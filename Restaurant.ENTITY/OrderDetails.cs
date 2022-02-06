@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    internal class OrderDetails
+    internal class OrderDetails:BaseProps
     {
         public Order OrderId { get; set; }
 
-        public List<SubItem> SubItems { get; set; }
+        public ICollection<SubItem> SubItems { get; set; }
 
     }
 }

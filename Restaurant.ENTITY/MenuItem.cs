@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    public class MenuItem
+    public class MenuItem:BaseProps
     {
         public string MenuItemName { get; set; } 
         public string Description { get; set; }

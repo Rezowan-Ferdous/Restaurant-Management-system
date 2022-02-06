@@ -11,7 +11,8 @@ namespace Restaurant.ENTITY
         public string RawMaterialName { get; set; }
         public double UnitPrice { get; set; }
         public string Details { get; set; }
-
+        public int UnitId { get; set; }
+        public Unit Unit { get; set; }
         public ICollection<SubItem> SubItems { get; set; }
     }
 }

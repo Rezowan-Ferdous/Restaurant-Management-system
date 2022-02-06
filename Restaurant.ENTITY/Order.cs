@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    public class Order
+    public class Order:BaseProps
     {
         public int CustomerId { get; set; }
         public int BillId { get; set; }

@@ -10,5 +10,7 @@ namespace Restaurant.ENTITY
     {
         public string UnitName { get; set; }
         public string Details { get; set; }
+
+        public ICollection<RawMaterials> RawMaterials { get; set; }
     }
 }

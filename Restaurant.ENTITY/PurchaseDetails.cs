@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    internal class PurchaseDetails
+    internal class PurchaseDetails:BaseProps
     {
         public PurchaseRM PurchaseRMId { get; set; }
         public RawMaterials RawMaterialsId { get; set; }
