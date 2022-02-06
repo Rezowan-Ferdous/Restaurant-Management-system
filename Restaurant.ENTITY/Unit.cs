@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    public class RawMaterials : BaseProps
+    public class Unit:BaseProps
     {
-        public string RawMaterialName { get; set; }
-        public double UnitPrice { get; set; }
+        public string UnitName { get; set; }
         public string Details { get; set; }
-
-
     }
 }
