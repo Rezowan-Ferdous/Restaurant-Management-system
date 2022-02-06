@@ -12,6 +12,6 @@ namespace Restaurant.ENTITY
         public double UnitPrice { get; set; }
         public string Details { get; set; }
 
-
+        public ICollection<SubItem> SubItems { get; set; }
     }
 }
