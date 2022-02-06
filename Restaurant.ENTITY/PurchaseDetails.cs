@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    internal class PurchaseDetails:BaseProps
+    public class PurchaseDetails:BaseProps
     {
-        public PurchaseRM PurchaseRMId { get; set; }
-        public RawMaterials RawMaterialsId { get; set; }
+        public int PurchaseRMId { get; set; }
+        public PurchaseRM PurchaseRM { get; set; }
+        public int RawMaterialsId { get; set; }
+        public RawMaterials RawMaterials { get; set; }
         public double Quantity { get; set; }
         public double Price { get; set; }
 

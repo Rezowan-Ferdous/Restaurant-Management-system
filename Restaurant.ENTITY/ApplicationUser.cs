@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Restaurant.ENTITY
 {
-    public class ApplicationUser
+    public class ApplicationUser:BaseProps
     {
+
     }
 }

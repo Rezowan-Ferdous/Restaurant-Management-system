@@ -13,5 +13,6 @@ namespace Restaurant.ENTITY
         public double Quantity { get; set; }
         public double TotalPrice { get; set; }
         public string Comments { get; set; }
+        public ICollection<PurchaseDetails> PurchaseDetails { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace Restaurant.ENTITY
         public double TotalBill { get; set; }
         public double Tips { get; set; }
         public double Discount { get; set; }
-
         public Customer Customer { get; set; }
+        public ICollection<OrderDetails> OrderDetails { get; set; }
     }
 }

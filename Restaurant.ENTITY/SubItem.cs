@@ -20,5 +20,6 @@ namespace Restaurant.ENTITY
         public MenuItem  MenuItem { get; set; }
 
         public ICollection<RawMaterials> RawMaterialses { get; set; }
+
     }
 }
