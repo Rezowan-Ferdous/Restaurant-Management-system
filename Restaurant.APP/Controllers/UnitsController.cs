@@ -88,9 +88,9 @@ namespace Restaurant.APP.Controllers
                 return RedirectToAction(nameof(Index));
             }
             catch
-            {
-                return View();
-            }
+        {
+            return View();
         }
     }
+}
 }
