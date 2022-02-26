@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Restaurant.BLL.IManagers;
+using Restaurant.BLL.Managers;
 using Restaurant.DB.Data;
+using Restaurent.DAL.IRepositories;
+using Restaurent.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +17,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUnitManager, UnitManager>();
+builder.Services.AddScoped<IUnitRepository, UnitRepository>();
 
 var app = builder.Build();
 

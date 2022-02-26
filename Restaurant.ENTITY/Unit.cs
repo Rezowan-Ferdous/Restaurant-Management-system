@@ -8,9 +8,9 @@ namespace Restaurant.ENTITY
 {
     public class Unit:BaseProps
     {
-        public string UnitName { get; set; }
-        public string Details { get; set; }
+        public string? UnitName { get; set; }
+        public string? Details { get; set; }
 
-        public ICollection<RawMaterials> RawMaterials { get; set; }
+        public ICollection<RawMaterials>? RawMaterials { get; set; }
     }
 }
