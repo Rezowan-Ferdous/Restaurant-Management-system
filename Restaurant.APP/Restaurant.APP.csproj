@@ -27,4 +27,8 @@
     <ProjectReference Include="..\Restaurant.ENTITY\Restaurant.ENTITY.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>
