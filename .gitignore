@@ -1,8 +1,9 @@
 appsettings.json
+/images
 *.jpg
 *.png
-*.jepg
-*.JEPG
+*.jpeg
+*.JPEG
 *.PNG
 
 ## Ignore Visual Studio temporary files, build results, and
